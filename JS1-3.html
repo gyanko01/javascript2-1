@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>JS1-3 HTML</title>
+    </head>
+    <body>
+        <h1>JS1-3 HTML</h1>
+        <script>
+            var n1, n2;
+            n1 = prompt("Please enter a number");
+            n2= prompt("please enter a second number");
+            n1= parseFloat(n1);
+            n2 = parseFloat(n2);
+            if(n1<n2)
+            document.write("The numbers from smallest to largest are:" + n1 +", "+ n2);
+            else if(n2<n1)
+            document.write("The numbers from smalles to largest are:" + n2 + ", "+ n1);
+            else if(n1 == n2)
+            document.write("The numbers are the same");
+            else
+            { 
+                document.write("You have not selected a number");
+
+            }
+
+            </script>
+            </body>
+</html>
